@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Roboto","Arial",sans-serif;
+}
+
+pays {
+    font-size: large;
+}
+
+
+header {
+    display: flex ;
+    justify-content: space-between;
+    align-items: center ;
+    height: 56px ;
+    padding : 16px ; 
+}
+
+.left-section {
+    display: flex ;
+    align-items: center ;
+    cursor: pointer;
+
+}
+
+.left-section img {
+    width : 46% ;
+    padding : 16px ;
+}
+
+.middle-section {
+   display: flex ;
+   align-items: center ;
+   margin-left: -9%;
+}
+
+.middle-section form {
+    display : flex ;
+    height : 40px ;
+    width : 628px ;
+}
+
+.middle-section
+   input {
+     width: 100%;
+     border-radius: 2px 0 0 2px ;
+     padding : 5px ; 
+     font-size: 1.6rem ;
+     border : 1px solid #d3D3D3; 
+     border-right : none ;
+   }
+   
+
+   .middle-section button {
+    width : 64px ; 
+    border : 1px solid  #d3D3D3; 
+    border-radius: 0 2px 2px 0 ;
+    padding-top: 4px ;
+    background-color: #f8f8f8 ;
+    cursor : pointer ; 
+   }
+
+   .middle-section button:hover {
+        background-color: #f0f0f0;
+        border-color: #c6C6c6;
+   }
+
+
+   .middle-section .mic{
+       width: 40px;
+        height: 40px ;
+        border-radius: 50%;
+        background-color: #f8F8F8;
+       display: flex ;
+       justify-content: center ; 
+       align-items: center;
+       margin-left: 15px ;
+       cursor : pointer ;    
+
+   }
