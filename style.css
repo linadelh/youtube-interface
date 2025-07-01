@@ -12,12 +12,9 @@ html {
 }
 
 body {
-    font-family: "Roboto","Arial",sans-serif;
+    font-family: "Roboto","Arial","sans-serif";
 }
 
-pays {
-    font-size: large;
-}
 
 
 header {
@@ -88,5 +85,16 @@ header {
        align-items: center;
        margin-left: 15px ;
        cursor : pointer ;    
+   }
 
+  
+
+   .right-section a {
+    text-decoration: none ;
+    padding-right: 18px ;
+    color : black ;  ;
+   }
+
+   .right-section {
+    margin-left: 200px ;
    }
