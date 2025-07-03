@@ -108,6 +108,7 @@ header {
 
 
    aside {
+    flex-shrink: 0;
     height : 100% ;
     width: 220px ;
     background-color: white;
@@ -185,6 +186,12 @@ header {
 
   
 
+   main {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
    .video-container{
     display: flex ;
     flex-direction: row;
@@ -197,7 +204,6 @@ header {
  .video {
     width : 330px ; 
     margin-bottom: 40px ;
-    margin : 30px ;
     cursor : pointer ; 
  }
 
@@ -244,4 +250,15 @@ header {
     display: -webkit-box;
      
     
+ }
+
+ .video-creator , .title span{
+    color: rgb(96 ,96,96);
+    font-size: 1.4rem;
+    line-height: 2rem ;
+    font-weight: 400 ;
+ }
+
+ .video-creator:hover {
+     color: #030303;
  }
