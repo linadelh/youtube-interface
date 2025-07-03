@@ -40,7 +40,7 @@ header {
 .middle-section {
    display: flex ;
    align-items: center ;
-   margin-left: -9%;
+  justify-content: center;
 }
 
 .middle-section form {
@@ -96,7 +96,7 @@ header {
    }
 
    .right-section {
-    margin-left: 150px ;
+    margin-left: 60px ;
    }
  
    .content-area {
@@ -180,10 +180,10 @@ header {
    .youtube-chan {
     height : 24px ;
     width : 24px ;
-    radius : 100% ; 
+    border-radius : 100% ; 
    }
 
-
+  
 
 
 
