@@ -10,7 +10,7 @@ This project helped me dive deeper into:
 
 ## take a look at it 
 
-![Alt text](youtube1.png)
+![Alt text](youtu.png)
 
 
 
