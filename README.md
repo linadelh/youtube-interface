@@ -21,5 +21,8 @@ Wanna try it out?
 2. Open the `index.html` in your browser
 
 
+
+
+---
 © 2025 Delhoum Lina 
 
