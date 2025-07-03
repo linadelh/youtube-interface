@@ -6,9 +6,10 @@ This project helped me dive deeper into:
 -  Styling multiple elements with precision and creativity
 -  Writing clean organized code with good practices
 
---
+---
 
-take a look at it 
+## take a look at it 
+
 ![Alt text](youtube1.png)
 
 
